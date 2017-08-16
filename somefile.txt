@@ -1,0 +1,1328 @@
+ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<script type="text/javascript">
+   var _U = "undefined";
+   var g_HttpRelativeWebRoot = "/ocom/";
+   var SSContributor = false;
+   var SSForceContributor = false;
+   var SSHideContributorUI = false;
+   var ssUrlPrefix = "/technetwork/";
+   var ssUrlType = "2";
+   
+   var g_navNode_Path = new Array();
+       g_navNode_Path[0] = 'otnen';
+       g_navNode_Path[1] = 'otnen_java';
+       g_navNode_Path[2] = 'otnen_javase';
+       g_navNode_Path[3] = 'otnen_javase_downloads';
+   var g_ssSourceNodeId = "otnen_javase_downloads";
+   var g_ssSourceSiteId = "otnen";
+</script>
+
+
+  <script id="ssInfo" type="text/xml" warning="DO NOT MODIFY!">
+  <ssinfo >
+    <fragmentinstance  id="fragment14" fragmentid="Universal_Localization_Fragment" library="server:UNIVERSAL_LOCALIZATION_FRAG">
+    </fragmentinstance>
+    <fragmentinstance  id="fragment16" fragmentid="Universal_Localization_Fragment" library="server:UNIVERSAL_LOCALIZATION_FRAG">
+    </fragmentinstance>
+    <fragmentinstance  id="fragment17" fragmentid="Universal_Localization_Fragment" library="server:UNIVERSAL_LOCALIZATION_FRAG">
+    </fragmentinstance>
+    <fragmentinstance  id="fragment18" fragmentid="universal-search-fragment" library="server:UNIVERSAL-SEARCH-FRAGMET-LIB">
+      
+    </fragmentinstance>
+    <fragmentinstance  id="fragment22" fragmentid="Universal_Localization_Fragment" library="server:UNIVERSAL_LOCALIZATION_FRAG">
+    </fragmentinstance>
+    <fragmentinstance  id="fragment23" fragmentid="ocom-commonassets" library="server:OCOM-FRAGMENT-LIBRARAY">
+      
+    </fragmentinstance>
+    <fragmentinstance  id="fragment24" fragmentid="ExternalNavigationHorizontal" library="server:EXTERNALNAVHORIZONTALLIB">
+    </fragmentinstance>
+    <fragmentinstance  id="fragment25" fragmentid="ExternalNavVertical" library="server:EXTERNAL_NAV_VERTICAL">
+    </fragmentinstance>
+    <fragmentinstance  id="fragment27" fragmentid="Universal_Localization_Fragment" library="server:UNIVERSAL_LOCALIZATION_FRAG">
+    </fragmentinstance>
+    <fragmentinstance  id="fragment28" fragmentid="Universal_Localization_Fragment" library="server:UNIVERSAL_LOCALIZATION_FRAG">
+    </fragmentinstance>
+    <fragmentinstance  id="fragment29" fragmentid="ExternalBreadCrumb" library="server:EXTERNAL_BREADCRUMB">
+    </fragmentinstance>
+    <fragmentinstance  id="fragment32" fragmentid="universal-metatag" library="server:UNIVERSAL-FRAGMENTS">
+    </fragmentinstance>
+    <fragmentinstance  id="fragment33" fragmentid="ExternalNavTabsTop" library="server:EXTERNAL_NAV_TABS_TOP">
+    </fragmentinstance>
+    <fragmentinstance  id="fragment35" fragmentid="universal-webcache-integration" library="server:UNIVERSAL-WEBCACHE-INTEGRATION">
+      
+    </fragmentinstance>
+    <fragmentinstance  id="fragment37" fragmentid="Universal_Localization_Fragment" library="server:UNIVERSAL_LOCALIZATION_FRAG">
+    </fragmentinstance>
+    <fragmentinstance  id="fragment38" fragmentid="universal-addthis-print-email" library="server:UNIVERSAL-FRAGMENTS">
+      
+    </fragmentinstance>
+    <fragmentinstance  id="fragment39" fragmentid="sitecatalyst-otn-standard" library="server:SITECATALYST-OTN-STANDARD">
+      
+    </fragmentinstance>
+    <fragmentinstance  id="fragment40" fragmentid="universal-addthis-print-email" library="server:UNIVERSAL-FRAGMENTS">
+      
+    </fragmentinstance>
+      <fragmentinstance  id="fragment41" fragmentid="mosaic-header-content" library="server:MOSAIC-HEADER-CONTENT">
+        
+      </fragmentinstance>
+      <fragmentinstance  id="fragment42" fragmentid="ocomheader" library="server:OCOMHEADER">
+        
+      </fragmentinstance>
+      <fragmentinstance  id="fragment43" fragmentid="ocomfooter" library="server:OCOMFOOTER">
+        
+      </fragmentinstance>
+      <fragmentinstance  id="fragment44" fragmentid="ocom-commonassets" library="server:OCOM-FRAGMENT-LIBRARAY">
+        
+      </fragmentinstance>
+  </ssinfo>
+  </script>
+
+  
+  
+
+
+  <style type="text/css">
+  #u06v1 li{
+    font-size: 11px;
+}
+    HTML,BODY,TD,H1,H2,H3,H4,OL,UL,DL,LI,DT,DD {font-family:arial,helvetica,sans-serif;}
+    HTML,BODY,TD,CODE,KBD,TT,OL,UL,DL,LI,DT,DD {font-size:12px;}
+    a:link {color:#000;text-decoration:none;}
+    a:visited {color:#000;text-decoration:none;}
+    a:hover {color:#FF0000;text-decoration:underline;}
+
+    #Wrapper_FixedWidth {text-align: left; margin: 0px auto; padding: 0px; border:0; width: 1000px;}
+    #Wrapper_FixedWidth_Header {margin: 0 0 15px 0; width:100%; display:block; }
+    #Wrapper_FixedWidth_Leftnav {float: left; width: 181px;}
+    #Wrapper_FixedWidth_Rightnav {float: right;  width: 185px; }
+    #Wrapper_FixedWidth_Centercontent {float: left; width: 810px;}
+    #Wrapper_FixedWidth_Maincontent {float: left; width: 595px;}
+    #Wrapper_FixedWidth_Footer{ clear: both; }
+    .header{display:block; width:100%; padding:2px 0px 5px 0px; margin:0px 0px 10px 0px;}
+    .logo{width:140px; float:left; padding:12px 0px 0px 12px;}
+    .welcomeMsg{text-align:right; font-size:10px; padding:5px 12px 0px 0px; float:right;}
+    .secureSearch{text-align:right; padding:10px 0px 0px 0px; margin-top:20px;}
+    .greybarhomebot{background: #DCDCDC;height: 7px; margin-top: 7px; float:left; width:100%; margin-top:20px;}
+    .footerLinks {font-size:10px;}
+    .sngPsta {font-size:11px;line-height:13px;color:#000;text-align:left;}
+    a.sngPsta:link {color:#000;text-decoration:none;display:block;padding:3px 10px;}
+    a.sngPsta:visited {color:#000;text-decoration:none;display:block;padding:3px 10px;}
+    a.sngPsta:hover {color:#fff;text-decoration:none;display:block;background-color:#9a9a9a;padding:3px 10px;}
+    /* For Mosaic */
+    ul#navigation li.top-level p a.noimg {background:none;}
+    /* For Mosaic */
+    #centerSectBlankPS {display: block;min-width: 570px;}
+    .lock {position:absolute; top:1px;*top:1px; left:152px; margin:0px; padding:0px;}
+  </style>
+
+  <!-- SS_BEGIN_SNIPPET(fragment44,ocom-commonassets-droppoint)-->
+				
+				
+			<!-- SS_END_SNIPPET(fragment44,ocom-commonassets-droppoint)-->  
+<!--SS_BEGIN_SNIPPET(fragment32,code)-->			<!--SS_END_SNIPPET(fragment32,code)-->
+
+  <style type="text/css">
+    <!-- Add logo class to styles.css file -->
+    .logo{FLOAT: left; WIDTH: 151px;  PADDING-TOP: 4px}
+    #centerSectBlankPS {display: block;min-width: 570px;}
+    .sunquicklinks_wrapper{DISPLAY: block; FLOAT: right; WIDTH: 200px; TEXT-ALIGN: right;}
+    .welcomesignin_wrapper{FLOAT: left; WIDTH: 634px; *width:621px; TEXT-ALIGN: right;VERTICAL-ALIGN: bottom; PADDING-TOP: 12px}
+    .logo_wrapper{DISPLAY: block; MARGIN-BOTTOM: 6px; float:left; WIDTH: 974px; HEIGHT: 40px;}
+	.menu-ocom {display:none;}
+	
+  </style><!--Mosaic Header --><!--[if IE]>
+  <STYLE>
+    .logo_align{margin-bottom: 4px; margin-left:0px;}
+    .search_position{margin:7px 3px 14px 16px;}
+    #panelDiv_search .contentBg{padding:15px 5px 5px 5px; } 
+    ul#navigation div.submenu {border-bottom:1px solid #b7b7b7;}
+    ul#navigation div.submenu .bottomleft{background:none; width:15px; height:30px; float:left;  margin-left:-16px; margin-bottom:-42px; }
+    ul#navigation div.submenu .bottomcenter{background:none; height:30px;  margin-left:15px; margin-right:15px; float:left; width:360px;} 
+    ul#navigation div.submenu .bottomright{background:none; width:15px; height:30px; float:left; margin-left:360px; }
+    ul#navigation div.submenu .partner_bottomleft{ background:none; width:15px; height:30px;  float:left; margin-left:-16px; margin-bottom:-42px; clear:left; margin-top:15px;}
+    ul#navigation div.submenu .partner_bottomcenter{  background:none; width:362px; height:30px; margin-left:15px;  float:center;}
+    ul#navigation div.submenu .partner_bottomright{  background:none; width:15px; height:30px; float:right; margin-right:-15px;}
+    </STYLE>
+  <![endif]-->
+<!--SS_BEGIN_SNIPPET(fragment29,1)--><!--SS_END_SNIPPET(fragment29,1)-->
+<!--SS_BEGIN_SNIPPET(fragment32,head_tags)-->
+
+
+												     
+     	
+
+
+
+
+	
+<title>Java SE Development Kit 8 - Downloads</title>
+<meta name="Title" content="Java SE Development Kit 8 - Downloads">
+<meta name="Description" content="Download JDK 8, a development environment for building applications and components using the Java programming language.">
+<meta name="Keywords" content="Java JavaSE JDK JDK8">
+<meta name="robots" content="INDEX, FOLLOW">
+<meta name="country" content="">
+<meta name="Language" content="en">
+<meta name="Updated Date" content="7/25/17 3:05 AM">
+
+			<!--SS_END_SNIPPET(fragment32,head_tags)-->
+
+<!--SS_BEGIN_SNIPPET(fragment33,1)-->
+				<link rel="stylesheet" type="text/css" href="/us/assets/receiver-style-css.css" type="text/css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/us/assets/subtabs-css.css" type="text/css" media="screen" />
+<script language="JavaScript" type="text/javascript" src="/us/assets/prototype-1.7.2.0.js"></script>
+			<!--SS_END_SNIPPET(fragment33,1)-->
+
+<!--SS_BEGIN_SNIPPET(fragment35,code)-->
+			<!--SS_END_SNIPPET(fragment35,code)-->
+
+<!-- SS_BEGIN_SNIPPET(fragment44,ocom-commonassets)--><link rel="stylesheet" type="text/css" href="https://www.oracle.com/asset/web/css/ocom-mosaic.css" />
+<link rel="stylesheet" type="text/css" href="https://www.oracle.com/asset/web/css/master-mosaic.css" />
+<script language="JavaScript" type="text/javascript" src="https://www.oracle.com/asset/web/js/jquery.js"></script>
+<script language="JavaScript" type="text/javascript" src="https://www.oracle.com/asset/web/js/oraclelib-mosaic.js"></script>
+
+    <script async="async" type="text/javascript" src='//consent.truste.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true' crossorigin></script>
+<!--[if IE]>
+  <STYLE>
+    .logo_align{margin-bottom: 4px; margin-left:0px;}
+    .search_position{margin:7px 3px 14px 16px;}
+    #panelDiv_search .contentBg{padding:30px 5px 5px 5px; } 
+    ul#navigation div.submenu {border-bottom:1px solid #b7b7b7;}
+    ul#navigation div.submenu .bottomleft{background:none; width:15px; height:30px; float:left;  margin-left:-16px; margin-bottom:-42px; }
+    ul#navigation div.submenu .bottomcenter{background:none; height:30px;  margin-left:15px; margin-right:15px; float:left; width:380px;} 
+    ul#navigation div.submenu .bottomright{background:none; width:15px; height:30px; float:left; }
+    ul#navigation div.submenu .partner_bottomleft{ background:none; width:15px; height:30px;  float:left; margin-left:-16px; margin-bottom:-42px; clear:left; margin-top:15px;}
+	ul#navigation div.submenu .partner_bottomcenter{  background:none; width:382px; height:30px; margin-left:15px;  float:center;}
+	ul#navigation div.submenu .partner_bottomright{  background:none; width:15px; height:30px; float:right; margin-right:-15px;}
+  </STYLE>
+<![endif]-->
+<!--[if IE 6]>
+  <style>
+  #panelDiv_search .BottomleftCurv{background:none; width:15px; height:30px; float:left;}
+  #panelDiv_search .centerBottom{background:none;width:153px;height:30px;float:left;}
+  #panelDiv_search .BottomrightCurv{background:none;width:15px;height:30px;float:right;}
+  #panelDiv_search .contentBg{border-bottom:1px solid #ababab;}
+  #navigation{width:971px;}
+  </style>
+<![endif]-->
+ <!--Brightcove script line and lightbox code--> 
+<div id="bcVideoPlayer" style="display: none;">&nbsp;</div>
+<div class="lightbox_overlay" id="lightbox_brightcove" onClick="showclose();" style="display: none; z-index: 30000;"><!--spacer-->&nbsp;</div>
+			<!-- SS_END_SNIPPET(fragment44,ocom-commonassets)-->
+<!--DTM embed code - Header -->
+<script src="//assets.adobedtm.com/6f37a0dc9cdbe818dc4979828b58b88e3f060ea4/satelliteLib-e598c5b61e39a10b402e048e87dd27b0f1cd2d4c.js"></script>
+<!--End-->
+</head>
+<body class="f01 f01v0 f01bg">
+<a name="top"></a>
+	<div class="f01bg"></div>
+	<div class="f01v0w1">
+	
+ 	
+  <!-- SS_BEGIN_SNIPPET(fragment42,ocomheader)-->				
+		<!-- U02v0 -->
+
+<nav class="u02nav">
+  <div id="u02" class="u02">
+    <div data-skiptxtappend="" data-skiptxtprepend="Skip" tabindex="-1" id="u02skip2content">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a id="u02skip2c" href="#maincontent">Skip to Content</a></li>
+        <li><a id="u02skip2s" href="#skip_to_search_form">Skip to Search</a></li>
+      </ul>
+    </div>
+    <div class="u02w1"><!-- logo -->
+      <div data-trackas="header" class="u02logo">
+        <div class="u02logow1"><a class="o_icon" data-lbl="logo" data-trackas="header" href="https://www.oracle.com/index.html"><span>Oracle</span></a></div>
+      </div>
+      <!-- menu -->
+      <div data-trackas="menu" class="u02menu">
+        <div class="u02mlink" id="u02main">
+          <div class="u02mlinkw1"><a data-lbl="menu" id="u02menulink" href="/us/assets/MENUCONTENT-EN">
+            <div class="u02mlinkw2">Menu</div>
+            </a></div>
+        </div>
+      </div>
+      
+ <!-- search -->
+<div data-trackas="header" class="u02search" id="u02search">
+  <form class="u02searchform" name="searchForm" method="get" action="https://www.oracle.com/search/results?cat=otn">
+    <input type="hidden" value="otn" name="cat" />
+    <input type="hidden" value="S3" name="Ntk" />
+    <input id="txtSearch" class="textcnt autoclear" name="Ntt" value="" />
+    <input type="submit" class="u02searchbttn" value="Submit Search" />
+  </form>
+</div>
+  
+      
+      
+      <div data-trackas="header" class="u02tools">
+        <ul>
+          <!-- user tools -->
+          <li class="u02mtool u02toolsloggedout"><a data-lbl="profile:sign-in-account" class="u02ticon u02user" href="#usermenu"> <span class="u02signin">Sign In</span> <span class="u02signout">Account</span> </a>
+            <div data-lbl="profile" class="u02user u02toolpop">
+              <div class="u02userin">
+                <div data-lbl="oracle-account" class="u02userinw1 u02userloggedin">
+                  <h5>Oracle Account</h5>
+                  <p id="u02userinfo">&nbsp;</p>
+                  <a class="u02bttn" id="u02pfile-sout" data-lbl="sign-out" href="javascript:sso_sign_out();">Sign Out</a>
+                  <ul id="u02usertools">
+                    <li><a id="u02pfile-acct" data-lbl="account" href="https://profile.oracle.com/myprofile/account/secure/update-account.jspx?nexturl=">Account</a></li>
+                    <li><a data-lbl="help" href="/us/corporate/contact/about-your-account-070507.html">Help</a></li>
+                  </ul>
+                </div>
+                <div data-lbl="oracle-account" class="u02userinw1 u02userloggedout">
+                  <h5>Oracle Account</h5>
+                  <p>Manage your account and access personalized content.</p>
+                  <a class="u02bttn" data-lbl="signin" id="u02pfile-regs" href="http://www.oracle.com/webapps/redirect/signon?nexturl=">Sign in</a>
+                  <ul id="u02usertools">
+                    <li><a data-lbl="createaccount" href="https://profile.oracle.com/myprofile/account/create-account.jspx">Create an account</a></li>
+                    <li><a data-lbl="help" href="http://www.oracle.com/us/corporate/contact/about-your-account-070507.html">Help</a></li>
+                  </ul>
+                </div>
+                <div data-lbl="cloud-account" class="u02userinw2">
+                  <h5>Cloud Account</h5>
+                  <p>Access your cloud dashboard, manage orders, and more.</p>
+                  <a class="u02bttn" data-lbl="signin" href="https://cloud.oracle.com/sign-in">Sign in</a></div>
+              </div>
+            </div>
+          </li>
+          <!-- country select -->
+          <li id="u02cmenu" class="u02mtool"><a class="u02ticon u02regn" href="/us/mosaicmenu/index.html#u02countrymenu"><span>Country</span></a></li>
+          <!-- call -->
+          <li id="u02call" class="u02mbttn"><a data-lbl="call" class="u02ticon u02call o-call" href="#callOracle"><span>Call</span></a></li>
+          <!-- chat --> <!--<li class="u02mbttn" id="u02chat">
+					<a data-lbl="chat" href="#chat" class="u02ticon u02chat"><span>Chat</span></a>
+				</li>-->
+        </ul>
+      </div>
+    </div>
+    <a id="maincontent">&nbsp;</a></div>
+</nav>
+<!-- /U02v0 -->
+ 
+			<!-- SS_END_SNIPPET(fragment42,ocomheader)-->
+  <!--SS_BEGIN_SNIPPET(fragment29,2)-->
+	
+	<!--**override root for testing purposes:**-->
+	<!--** Header Logo ** -->
+	<!--** Header Search ** -->
+	<!--** Welcome SignIn ** -->
+	 
+	
+	<!--** Footer ** -->
+	
+   
+    
+<!--** Header Logo ** -->
+             
+    
+
+  <!-- MOSAIC -->
+<!-- Communities-->
+
+<!-- User Category -->
+ 
+<!-- User Intrest -->
+<!-- Navigation starts here -->
+     
+          
+                    
+        
+        
+          
+
+        
+      
+      
+     
+    
+     
+        
+            
+            
+       
+        
+      
+     
+     
+        
+<!-- User Community SC code -->
+
+<!-- User Category SC code -->
+
+ 
+<!-- User Interest SC code -->
+
+
+	
+	    <div id="breadCrumb">
+	    <div class="breadCrumb_Left"></div>
+	    <div class="breadCrumb_Center">
+	    <div style="position:relative;">
+	    <span class="breadCrumb_Content">
+			    <a href="/technetwork/index.html" onclick="navTrack('otn','en','breadcrumb','otnen');"><span class=red>Oracle</span> Technology Network</a>
+			    <span class="rightarrow"><img src="/us/assets/rightarrow-066625.gif" alt=" " /></span>
+			    <a href="/technetwork/java/index.html" onclick="navTrack('otn','en','breadcrumb','otnen_java');">Java</a>
+			    <span class="rightarrow"><img src="/us/assets/rightarrow-066625.gif" alt=" " /></span>
+			    <a href="/technetwork/java/javase/index.html" onclick="navTrack('otn','en','breadcrumb','otnen_javase');">Java SE</a>
+			    <span class="rightarrow"><img src="/us/assets/rightarrow-066625.gif" alt=" " /></span>
+			    <span class="active">Downloads</span>
+	    </span>
+	    </div>
+	    </div>
+	    <div class="breadCrumb_Right"></div>
+	    </div>
+
+			<!--SS_END_SNIPPET(fragment29,2)--> 
+      <div id="wrapper_lnav_maincont_rcol_foot">
+        <div id="Wrapper_FixedWidth_Leftnav">
+          
+<!--SS_BEGIN_SNIPPET(fragment25,2)-->
+	
+	<!--**override root for testing purposes:**-->
+	<!--** Header Logo ** -->
+	<!--** Header Search ** -->
+	<!--** Welcome SignIn ** -->
+	 
+	
+	<!--** Footer ** -->
+	
+   
+    
+<!--** Header Logo ** -->
+             
+    
+
+  <!-- MOSAIC -->
+<!-- Communities-->
+
+<!-- User Category -->
+ 
+<!-- User Intrest -->
+<!-- Navigation starts here -->
+     
+          
+                    
+        
+        
+          
+
+        
+      
+      
+     
+    
+     
+        
+            
+            
+       
+        
+      
+     
+     
+        
+<!-- User Community SC code -->
+
+<!-- User Category SC code -->
+
+ 
+<!-- User Interest SC code -->
+
+
+ <!--** retrieve input parameters: **-->
+		
+
+			
+		
+	<!--** retrieve the root node: **-->
+	<!--rootId = ssGetFirstNodeId(siteId)-->
+	<!--nodeId = rootId-->
+
+	<!--** retrieve the nodeLevel and set it to ssNumVertLevels **-->
+	<!--** retrieving the nodeLevel **-->
+		        	            
+	        	            
+		<!--** setting the nodelevel to ssNumVertLevels **-->
+                <!--** Get the section ID in custom section property **-->		
+				                             
+   
+                	
+                 
+                
+                <div class="topLeftNavBorder_li"><!--Spacer--></div> 
+                <div class="XMLLeftNav_li" id="XMLLeftNav">
+
+		
+ 
+		<!--** section link: **-->    
+		     
+		    		   
+ 
+											
+               <ul class="level01">
+				
+
+                          
+ 		            	
+				  <li><a class="level01_top_link_subnav" href = "/technetwork/java/javase/index.html" onclick="navTrack('otn','en','lnav','javase');"   target=_top><div>Java SE</div></a></li>
+                     	 			 							
+				
+
+                          
+ 		            	
+				  <li><a class="level01_top_link_subnav" href = "/technetwork/java/javaee/index.html" onclick="navTrack('otn','en','lnav','javaee');"   target=_top><div>Java EE</div></a></li>
+                     	 			 							
+				
+
+                          
+ 		            	
+				  <li><a class="level01_top_link_subnav" href = "/technetwork/java/javame/index.html" onclick="navTrack('otn','en','lnav','java_jme_x');"   target=_top><div>Java ME</div></a></li>
+                     	 			 							
+				
+
+                          
+ 		          			 							
+				
+
+                          
+ 		            	
+				  <li><a class="level01_top_link_subnav" href = "/technetwork/java/javasebusiness/index.html" onclick="navTrack('otn','en','lnav','javasebusines');"   target=_top><div>Java SE Support</div></a></li>
+                     	 			 							
+				
+
+                          
+ 		            	
+				  <li><a class="level01_top_link_subnav" href = "/technetwork/java/javaseproducts/index.html" onclick="navTrack('otn','en','lnav','java_advanced');"   target=_top><div>Java SE Advanced & Suite</div></a></li>
+                     	 			 							
+				
+
+                          
+ 		            	
+				  <li><a class="level01_top_link_subnav" href = "/technetwork/java/embedded/index.html" onclick="navTrack('otn','en','lnav','javaembed');"   target=_top><div>Java Embedded</div></a></li>
+                     	 			 							
+				
+
+                          
+ 		          			 							
+				
+
+                          
+ 		          			 							
+				
+
+                          
+ 		            	
+				  <li><a class="level01_top_link_subnav" href = "/technetwork/java/javadb/index.html" onclick="navTrack('otn','en','lnav','javadb');"   target=_top><div>Java DB</div></a></li>
+                     	 			 							
+				
+
+                          
+ 		            	
+				  <li><a class="level01_top_link_subnav" href = "/technetwork/java/webtier/index.html" onclick="navTrack('otn','en','lnav','webtier_ph');"   target=_top><div>Web Tier</div></a></li>
+                     	 			 							
+				
+
+                          
+ 		            	
+				  <li><a class="level01_top_link_subnav" href = "/technetwork/java/javacard/index.html" onclick="navTrack('otn','en','lnav','javacard_x');"   target=_top><div>Java Card</div></a></li>
+                     	 			 							
+				
+
+                          
+ 		            	
+				  <li><a class="level01_top_link_subnav" href = "/technetwork/java/javatv/index.html" onclick="navTrack('otn','en','lnav','javatv_x');"   target=_top><div>Java TV</div></a></li>
+                     	 			 							
+				
+
+                          
+ 		          			 							
+				
+
+                          
+ 		          			 							
+				
+
+                          
+ 		          			 							
+				
+
+                          
+ 		          			 							
+				
+
+                          
+ 		            	
+				  <li><a class="level01_top_link_subnav" href = "/technetwork/java/newtojava/index.html" onclick="navTrack('otn','en','lnav','java_newtojava');"   target=_top><div>New to Java</div></a></li>
+                     	 			 							
+				
+
+                          
+ 		            	
+				  <li><a class="level01_top_link_subnav" href = "/technetwork/java/community/index.html" onclick="navTrack('otn','en','lnav','java_community');"   target=_top><div>Community</div></a></li>
+                     	 			 							
+				
+
+                          
+ 		            	
+				  <li><a class="level01_top_link_subnav" href = "/technetwork/java/javamagazine/index.html" onclick="navTrack('otn','en','lnav','javamag');"   target=_top><div>Java Magazine</div></a></li>
+                     	 			 							
+				
+
+                          
+ 		          			 							
+				
+
+                          
+ 		          			 							
+				
+		 </ul>										
+ 
+     	        </div>
+		<div class="botLeftNavBorder_li"><!--Spacer--></div>
+											
+	<!--** end of ExternalNavMultiV **-->
+
+
+			<!--SS_END_SNIPPET(fragment25,2)-->
+
+        </div>
+
+        <div id="Wrapper_FixedWidth_Centercontent">
+          <div class="pg0 pg0v0 pg0x1v0 pg0x1">
+            
+<!--SS_BEGIN_SNIPPET(fragment33,2)-->
+	
+				
+			
+			
+							
+							
+							
+							
+							
+							
+							<div class="orcl6 orcl6v0">
+					<div class="orcl6w0">
+						<ul id="tabsample0">
+								<li ><a href="/technetwork/java/javase/overview/index.html"target=_top onclick="navTrack('otn','en','tab','Java:Overview');"><span>Overview</span></a><div></div></li>
+								<li class='ui-tabs-selected'><a href="/technetwork/java/javase/downloads/index.html"target=_top onclick="navTrack('otn','en','tab','Java:Downloads');"><span>Downloads</span></a><div></div></li>
+								<li ><a href="/technetwork/java/javase/documentation/index.html"target=_top onclick="navTrack('otn','en','tab','Java:Documentation');"><span>Documentation</span></a><div></div></li>
+								<li ><a href="/technetwork/java/javase/community/index.html"target=_top onclick="navTrack('otn','en','tab','Java:Community');"><span>Community</span></a><div></div></li>
+								<li ><a href="/technetwork/java/javase/tech/index.html"target=_top onclick="navTrack('otn','en','tab','Java:Technologies');"><span>Technologies</span></a><div></div></li>
+								<li ><a href="/technetwork/java/javase/training/index.html"target=_top onclick="navTrack('otn','en','tab','Java:Training');"><span>Training</span></a><div></div></li>
+						</ul>
+					</div>
+				</div>
+				<div class="orcl6w1">
+					<div class="orcl6x0"></div>
+				</div>
+
+
+
+
+
+
+
+			<!--SS_END_SNIPPET(fragment33,2)-->
+<script type="text/javascript">
+window['MULTIDDOCNAMECONFIG'] = { 
+show_addrowbutton: false, 
+primaryurl: 'OTN-LT-3COL?MainContent=138363&RHS1=160036&RHS2=160044&RHS3=&RHS4=&RHS5=&RHS6=&RHS7=&RHS8=&RHS9=&RHS10=&RHS11=&RHS12=&RHS13=&RHS14=&RHS15=&RHS16=&RHS17=', 
+rows: [ 
+{ 
+createnewxml_defaultmetadata_default: 'dDocTitle%3DRHS', 
+browse_querytext_default: 'xWebsiteObjectType <Matches> `Data File`', 
+show_createnewxmlbutton_default: true, 
+show_browsebutton_default: true, 
+
+createnewxml_defaultmetadata_override: 'dDocTitle%3DRHS', 
+browse_querytext_override: 'xWebsiteObjectType <Matches> `Data File`', 
+show_createnewxmlbutton_override: true, 
+show_browsebutton_override: true, 
+
+show_deletebutton: true 
+}, 
+{ 
+createnewxml_defaultmetadata_default: 'dDocTitle%3DRHS', 
+browse_querytext_default: 'xWebsiteObjectType <Matches> `Data File`', 
+show_createnewxmlbutton_default: true, 
+show_browsebutton_default: true, 
+
+createnewxml_defaultmetadata_override: 'dDocTitle%3DRHS', 
+browse_querytext_override: 'xWebsiteObjectType <Matches> `Data File`', 
+show_createnewxmlbutton_override: true, 
+show_browsebutton_override: true, 
+
+show_deletebutton: true 
+}, 
+{ 
+createnewxml_defaultmetadata_default: 'dDocTitle%3DRHS', 
+browse_querytext_default: 'xWebsiteObjectType <Matches> `Data File`', 
+show_createnewxmlbutton_default: true, 
+show_browsebutton_default: true, 
+
+createnewxml_defaultmetadata_override: 'dDocTitle%3DRHS', 
+browse_querytext_override: 'xWebsiteObjectType <Matches> `Data File`', 
+show_createnewxmlbutton_override: true, 
+show_browsebutton_override: true, 
+
+show_deletebutton: true 
+}, 
+{ 
+createnewxml_defaultmetadata_default: 'dDocTitle%3DRHS', 
+browse_querytext_default: 'xWebsiteObjectType <Matches> `Data File`', 
+show_createnewxmlbutton_default: true, 
+show_browsebutton_default: true, 
+
+createnewxml_defaultmetadata_override: 'dDocTitle%3DRHS', 
+browse_querytext_override: 'xWebsiteObjectType <Matches> `Data File`', 
+show_createnewxmlbutton_override: true, 
+show_browsebutton_override: true, 
+
+show_deletebutton: true 
+}, 
+{ 
+createnewxml_defaultmetadata_default: 'dDocTitle%3DRHS', 
+browse_querytext_default: 'xWebsiteObjectType <Matches> `Data File`', 
+show_createnewxmlbutton_default: true, 
+show_browsebutton_default: true, 
+
+createnewxml_defaultmetadata_override: 'dDocTitle%3DRHS', 
+browse_querytext_override: 'xWebsiteObjectType <Matches> `Data File`', 
+show_createnewxmlbutton_override: true, 
+show_browsebutton_override: true, 
+
+show_deletebutton: true 
+}, 
+{ 
+createnewxml_defaultmetadata_default: 'dDocTitle%3DRHS', 
+browse_querytext_default: 'xWebsiteObjectType <Matches> `Data File`', 
+show_createnewxmlbutton_default: true, 
+show_browsebutton_default: true, 
+
+createnewxml_defaultmetadata_override: 'dDocTitle%3DRHS', 
+browse_querytext_override: 'xWebsiteObjectType <Matches> `Data File`', 
+show_createnewxmlbutton_override: true, 
+show_browsebutton_override: true, 
+
+show_deletebutton: true 
+}, 
+{ 
+createnewxml_defaultmetadata_default: 'dDocTitle%3DRHS', 
+browse_querytext_default: 'xWebsiteObjectType <Matches> `Data File`', 
+show_createnewxmlbutton_default: true, 
+show_browsebutton_default: true, 
+
+createnewxml_defaultmetadata_override: 'dDocTitle%3DRHS', 
+browse_querytext_override: 'xWebsiteObjectType <Matches> `Data File`', 
+show_createnewxmlbutton_override: true, 
+show_browsebutton_override: true, 
+
+show_deletebutton: true 
+}, 
+{ 
+createnewxml_defaultmetadata_default: 'dDocTitle%3DRHS', 
+browse_querytext_default: 'xWebsiteObjectType <Matches> `Data File`', 
+show_createnewxmlbutton_default: true, 
+show_browsebutton_default: true, 
+
+createnewxml_defaultmetadata_override: 'dDocTitle%3DRHS', 
+browse_querytext_override: 'xWebsiteObjectType <Matches> `Data File`', 
+show_createnewxmlbutton_override: true, 
+show_browsebutton_override: true, 
+
+show_deletebutton: true 
+}, 
+{ 
+createnewxml_defaultmetadata_default: 'dDocTitle%3DRHS', 
+browse_querytext_default: 'xWebsiteObjectType <Matches> `Data File`', 
+show_createnewxmlbutton_default: true, 
+show_browsebutton_default: true, 
+
+createnewxml_defaultmetadata_override: 'dDocTitle%3DRHS', 
+browse_querytext_override: 'xWebsiteObjectType <Matches> `Data File`', 
+show_createnewxmlbutton_override: true, 
+show_browsebutton_override: true, 
+
+show_deletebutton: true 
+}, 
+{ 
+createnewxml_defaultmetadata_default: 'dDocTitle%3DRHS', 
+browse_querytext_default: 'xWebsiteObjectType <Matches> `Data File`', 
+show_createnewxmlbutton_default: true, 
+show_browsebutton_default: true, 
+
+createnewxml_defaultmetadata_override: 'dDocTitle%3DRHS', 
+browse_querytext_override: 'xWebsiteObjectType <Matches> `Data File`', 
+show_createnewxmlbutton_override: true, 
+show_browsebutton_override: true, 
+
+show_deletebutton: true 
+}, 
+{ 
+createnewxml_defaultmetadata_default: 'dDocTitle%3DRHS', 
+browse_querytext_default: 'xWebsiteObjectType <Matches> `Data File`', 
+show_createnewxmlbutton_default: true, 
+show_browsebutton_default: true, 
+
+createnewxml_defaultmetadata_override: 'dDocTitle%3DRHS', 
+browse_querytext_override: 'xWebsiteObjectType <Matches> `Data File`', 
+show_createnewxmlbutton_override: true, 
+show_browsebutton_override: true, 
+
+show_deletebutton: true 
+}, 
+{ 
+createnewxml_defaultmetadata_default: 'dDocTitle%3DRHS', 
+browse_querytext_default: 'xWebsiteObjectType <Matches> `Data File`', 
+show_createnewxmlbutton_default: true, 
+show_browsebutton_default: true, 
+
+createnewxml_defaultmetadata_override: 'dDocTitle%3DRHS', 
+browse_querytext_override: 'xWebsiteObjectType <Matches> `Data File`', 
+show_createnewxmlbutton_override: true, 
+show_browsebutton_override: true, 
+
+show_deletebutton: true 
+}, 
+{ 
+createnewxml_defaultmetadata_default: 'dDocTitle%3DRHS', 
+browse_querytext_default: 'xWebsiteObjectType <Matches> `Data File`', 
+show_createnewxmlbutton_default: true, 
+show_browsebutton_default: true, 
+
+createnewxml_defaultmetadata_override: 'dDocTitle%3DRHS', 
+browse_querytext_override: 'xWebsiteObjectType <Matches> `Data File`', 
+show_createnewxmlbutton_override: true, 
+show_browsebutton_override: true, 
+
+show_deletebutton: true 
+}, 
+{ 
+createnewxml_defaultmetadata_default: 'dDocTitle%3DRHS', 
+browse_querytext_default: 'xWebsiteObjectType <Matches> `Data File`', 
+show_createnewxmlbutton_default: true, 
+show_browsebutton_default: true, 
+
+createnewxml_defaultmetadata_override: 'dDocTitle%3DRHS', 
+browse_querytext_override: 'xWebsiteObjectType <Matches> `Data File`', 
+show_createnewxmlbutton_override: true, 
+show_browsebutton_override: true, 
+
+show_deletebutton: true 
+}, 
+{ 
+createnewxml_defaultmetadata_default: 'dDocTitle%3DRHS', 
+browse_querytext_default: 'xWebsiteObjectType <Matches> `Data File`', 
+show_createnewxmlbutton_default: true, 
+show_browsebutton_default: true, 
+
+createnewxml_defaultmetadata_override: 'dDocTitle%3DRHS', 
+browse_querytext_override: 'xWebsiteObjectType <Matches> `Data File`', 
+show_createnewxmlbutton_override: true, 
+show_browsebutton_override: true, 
+
+show_deletebutton: true 
+},
+{ 
+createnewxml_defaultmetadata_default: 'dDocTitle%3DRHS', 
+browse_querytext_default: 'xWebsiteObjectType <Matches> `Data File`', 
+show_createnewxmlbutton_default: true, 
+show_browsebutton_default: true, 
+
+createnewxml_defaultmetadata_override: 'dDocTitle%3DRHS', 
+browse_querytext_override: 'xWebsiteObjectType <Matches> `Data File`', 
+show_createnewxmlbutton_override: true, 
+show_browsebutton_override: true, 
+
+show_deletebutton: true 
+},  
+{ 
+createnewxml_defaultmetadata_default: 'dDocTitle%3DRHS', 
+browse_querytext_default: 'xWebsiteObjectType <Matches> `Data File`', 
+show_createnewxmlbutton_default: true, 
+show_browsebutton_default: true, 
+
+createnewxml_defaultmetadata_override: 'dDocTitle%3DRHS', 
+browse_querytext_override: 'xWebsiteObjectType <Matches> `Data File`', 
+show_createnewxmlbutton_override: true, 
+show_browsebutton_override: true, 
+
+show_deletebutton: true 
+}                    
+] 
+}; 
+</script>
+<style>
+  .sidebox h4 a:link {_width:178px;}
+  .sidebox h4 a:visited{_width:178px;}
+  .sidebox h4 a:hover {_width:178px;}
+</style>
+<div class="orcl6w2">
+	<div class="orcl6w3">
+		
+						<link type="text/css" rel="stylesheet" href="/technetwork/java/javase-2054821.css" /> <script language="javascript" type="text/javascript" src="/technetwork/indexes/downloads/download-cookies-2152866.js"></script>
+<link href="/ocom/groups/systemobject/@ocompublic/documents/systemobject/otn-download-style.css" type="text/css" rel="stylesheet" /> <script>
+// Dynamically generated download page for OTN. 
+// Aurelio Garcia-Ribeyro, 2012-05-21, based off of pre-existing code for OTN license acceptance
+// Erik Costlow, 2015-03-18, updated download HTML
+
+// Only the 'downloads' array should need to be modified, unless the look/feel needs to be changed in the body at the bottom
+
+// 'downloads' is an array of releases, using the CDS part number as the key for each release. Each release is also an array of meta-data for that release. Finally, there is a 3rd nested array of files to be offered in the release.
+
+// downloads[product][path] will assumed to be the path for each file. NOT YET IMPLEMENTED: Unless downloads[product]['files']['path'] is defined. 
+// The filename will assumed to be the key for path from downloads[product]['files']. NOT YET IMPLEMENTED: Unless downloads[product]['files']['filename'] is defined. 
+var downloads = new Array();
+
+downloads['jdk-8u144-oth-JPR'] = { title: "Java SE Development Kit 8u144", lictitle: "Oracle Binary Code License Agreement for Java SE", licpath: "/technetwork/java/javase/terms/license", files: new Array()};
+
+downloads['jdk-8u144-oth-JPR']['files']['jdk-8u144-linux-arm32-vfp-hflt.tar.gz'] = { "title":"Linux ARM 32 Hard Float ABI", "size":"77.89 MB","filepath":"http://download.oracle.com/otn-pub/java/jdk/8u144-b01/090f390dda5b47b9b721c7dfaa008135/jdk-8u144-linux-arm32-vfp-hflt.tar.gz", "MD5":"bfe5d4474044fdcda0f9c5ddcbd689a4", "SHA256":"cbbd390e19ab4c473e05f60602ce2804db25e4e35be5ab95f4f1a2aeb5b72383"};
+downloads['jdk-8u144-oth-JPR']['files']['jdk-8u144-linux-arm64-vfp-hflt.tar.gz'] = { "title":"Linux ARM 64 Hard Float ABI", "size":"74.83 MB","filepath":"http://download.oracle.com/otn-pub/java/jdk/8u144-b01/090f390dda5b47b9b721c7dfaa008135/jdk-8u144-linux-arm64-vfp-hflt.tar.gz", "MD5":"9100a2e7763d6bd118e3662c4a8f66b3", "SHA256":"bbcf4a0805f9bcead32fd988b74cee61ef6ad90e6d1b4e0dce432ac3fd8e0168"};
+downloads['jdk-8u144-oth-JPR']['files']['jdk-8u144-linux-i586.rpm'] = { "title":"Linux x86", "size":"164.65 MB","filepath":"http://download.oracle.com/otn-pub/java/jdk/8u144-b01/090f390dda5b47b9b721c7dfaa008135/jdk-8u144-linux-i586.rpm", "MD5":"eb35a77bcbd2466d9c96142e5a0d9b87", "SHA256":"038cfbaa61d761562be65517c8ed3532fac5e7f8a79fd28be11b4b6bad3972e0"};
+downloads['jdk-8u144-oth-JPR']['files']['jdk-8u144-linux-i586.tar.gz'] = { "title":"Linux x86", "size":"179.44 MB","filepath":"http://download.oracle.com/otn-pub/java/jdk/8u144-b01/090f390dda5b47b9b721c7dfaa008135/jdk-8u144-linux-i586.tar.gz", "MD5":"13d771707f326b02e2497c99e0a2ca37", "SHA256":"624c090647629394ef0ee08d9d8ac5d3d5a9a60fa245fefb2eb417c36c7cb7c4"};
+downloads['jdk-8u144-oth-JPR']['files']['jdk-8u144-linux-x64.rpm'] = { "title":"Linux x64", "size":"162.1 MB","filepath":"http://download.oracle.com/otn-pub/java/jdk/8u144-b01/090f390dda5b47b9b721c7dfaa008135/jdk-8u144-linux-x64.rpm", "MD5":"dcc4c903506766ec4c50a969babdd856", "SHA256":"cdb016da0c509d7414ee3f0c15b2dae5092d9a77edf7915be4386d5127e8092f"};
+downloads['jdk-8u144-oth-JPR']['files']['jdk-8u144-linux-x64.tar.gz'] = { "title":"Linux x64", "size":"176.92 MB","filepath":"http://download.oracle.com/otn-pub/java/jdk/8u144-b01/090f390dda5b47b9b721c7dfaa008135/jdk-8u144-linux-x64.tar.gz", "MD5":"2d59a3add1f213cd249a67684d4aeb83", "SHA256":"e8a341ce566f32c3d06f6d0f0eeea9a0f434f538d22af949ae58bc86f2eeaae4"};
+downloads['jdk-8u144-oth-JPR']['files']['jdk-8u144-macosx-x64.dmg'] = { "title":"Mac OS X", "size":"226.6 MB","filepath":"http://download.oracle.com/otn-pub/java/jdk/8u144-b01/090f390dda5b47b9b721c7dfaa008135/jdk-8u144-macosx-x64.dmg", "MD5":"b96375812255bf23f84cdb0c8fd2606b", "SHA256":"2450b35e10295ccf3fb1596bdea6f8f5670f7200ae3ac592eb6a54cc030cf94b"};
+downloads['jdk-8u144-oth-JPR']['files']['jdk-8u144-solaris-sparcv9.tar.Z'] = { "title":"Solaris SPARC 64-bit", "size":"139.87 MB","filepath":"http://download.oracle.com/otn-pub/java/jdk/8u144-b01/090f390dda5b47b9b721c7dfaa008135/jdk-8u144-solaris-sparcv9.tar.Z", "MD5":"81b87560e52950ed9ba3ebc0cba53281", "SHA256":"17e92bc16279d98e99a58ad269b9483a26a8e12dbc9a3d9c5e1f10fffa2e09c8"};
+downloads['jdk-8u144-oth-JPR']['files']['jdk-8u144-solaris-sparcv9.tar.gz'] = { "title":"Solaris SPARC 64-bit", "size":"99.18 MB","filepath":"http://download.oracle.com/otn-pub/java/jdk/8u144-b01/090f390dda5b47b9b721c7dfaa008135/jdk-8u144-solaris-sparcv9.tar.gz", "MD5":"0e22f946a1a3794c4a9e7cc10d43b3c3", "SHA256":"fe8e6d12cac940569c5b2270d2d40ed57d6a0861d15d512e4d1cbc55277a2d2d"};
+downloads['jdk-8u144-oth-JPR']['files']['jdk-8u144-solaris-x64.tar.Z'] = { "title":"Solaris x64", "size":"140.51 MB","filepath":"http://download.oracle.com/otn-pub/java/jdk/8u144-b01/090f390dda5b47b9b721c7dfaa008135/jdk-8u144-solaris-x64.tar.Z", "MD5":"f25e253659b2ac891b0c9e123b1a7710", "SHA256":"c28528dde34748532e15ff0064a0555cf7279066c673417ca45bc2d60e552609"};
+downloads['jdk-8u144-oth-JPR']['files']['jdk-8u144-solaris-x64.tar.gz'] = { "title":"Solaris x64", "size":"96.99 MB","filepath":"http://download.oracle.com/otn-pub/java/jdk/8u144-b01/090f390dda5b47b9b721c7dfaa008135/jdk-8u144-solaris-x64.tar.gz", "MD5":"86ae10dadcab8008db567e169bff352b", "SHA256":"9eea0096784e6c876aae6918bf4692096bd738200e717da09b4471bd1e706cf1"};
+downloads['jdk-8u144-oth-JPR']['files']['jdk-8u144-windows-i586.exe'] = { "title":"Windows x86", "size":"190.94 MB","filepath":"http://download.oracle.com/otn-pub/java/jdk/8u144-b01/090f390dda5b47b9b721c7dfaa008135/jdk-8u144-windows-i586.exe", "MD5":"8f189a37b323d81c0f0e013cf3070c93", "SHA256":"f2c6657812986aa4b992173da495cdc3620edcdc26927860d7d920958f12575c"};
+downloads['jdk-8u144-oth-JPR']['files']['jdk-8u144-windows-x64.exe'] = { "title":"Windows x64", "size":"197.78 MB","filepath":"http://download.oracle.com/otn-pub/java/jdk/8u144-b01/090f390dda5b47b9b721c7dfaa008135/jdk-8u144-windows-x64.exe", "MD5":"21847ee935ceeaa482087cdd80638519", "SHA256":"be9f6e920f817757ce1913c9c3f0a5d63046c720f37a95e4a14450a179f48a18"};
+
+downloads['jdk-8u144-demos-oth-JPR'] = { title: "Java SE Development Kit 8u144 Demos and Samples Downloads", lictitle: "Oracle BSD License.", licpath: "/technetwork/java/javase/terms/license/oraclebsd-1603217.txt", files: new Array()};
+
+downloads['jdk-8u144-demos-oth-JPR']['files']['jdk-8u144-linux-arm32-vfp-hflt-demos.tar.gz'] = { "title":"Linux ARM 32 Hard Float ABI", "size":"9.95 MB","filepath":"http://download.oracle.com/otn-pub/java/jdk/8u144-b01-demos/090f390dda5b47b9b721c7dfaa008135/jdk-8u144-linux-arm32-vfp-hflt-demos.tar.gz", "MD5":"c93dc2748781fc1f76e0b4422afb4cb8", "SHA256":"b113da60e5b0d30e58723a1bd56d46d25767b6c893910ab8bad08f43e463ee86"};
+downloads['jdk-8u144-demos-oth-JPR']['files']['jdk-8u144-linux-arm64-vfp-hflt-demos.tar.gz'] = { "title":"Linux ARM 64 Hard Float ABI", "size":"9.94 MB","filepath":"http://download.oracle.com/otn-pub/java/jdk/8u144-b01-demos/090f390dda5b47b9b721c7dfaa008135/jdk-8u144-linux-arm64-vfp-hflt-demos.tar.gz", "MD5":"616ab2575e966f40e1aa21600c52fc0b", "SHA256":"ec66001b2f6a6814c4cf6d28f7c59ee5d335cbf50d8a3557c5e9eb46adf09630"};
+downloads['jdk-8u144-demos-oth-JPR']['files']['jdk-8u144-linux-i586-demos.rpm'] = { "title":"Linux x86", "size":"52.66 MB","filepath":"http://download.oracle.com/otn-pub/java/jdk/8u144-b01-demos/090f390dda5b47b9b721c7dfaa008135/jdk-8u144-linux-i586-demos.rpm", "MD5":"d0b960351798db7d84fa68c164f95377", "SHA256":"1023867e9efb2b714fa8343660bc3f4ca846a0aa125f6f0a1ecf3a2792162520"};
+downloads['jdk-8u144-demos-oth-JPR']['files']['jdk-8u144-linux-i586-demos.tar.gz'] = { "title":"Linux x86", "size":"52.52 MB","filepath":"http://download.oracle.com/otn-pub/java/jdk/8u144-b01-demos/090f390dda5b47b9b721c7dfaa008135/jdk-8u144-linux-i586-demos.tar.gz", "MD5":"fcf7b757eec665a01bf453da6725b3ea", "SHA256":"3e8f02f32b129d681f5f2a0178373d750f4c2352acf55785fdca70c8f9aaf595"};
+downloads['jdk-8u144-demos-oth-JPR']['files']['jdk-8u144-linux-x64-demos.rpm'] = { "title":"Linux x64", "size":"52.72 MB","filepath":"http://download.oracle.com/otn-pub/java/jdk/8u144-b01-demos/090f390dda5b47b9b721c7dfaa008135/jdk-8u144-linux-x64-demos.rpm", "MD5":"ab0eb0cd0e505e85fa4641056fca6cec", "SHA256":"8c3d33641316824382ecb2cadec016fb643c8ee479fc342d1c1047efe58dc215"};
+downloads['jdk-8u144-demos-oth-JPR']['files']['jdk-8u144-linux-x64-demos.tar.gz'] = { "title":"Linux x64", "size":"52.54 MB","filepath":"http://download.oracle.com/otn-pub/java/jdk/8u144-b01-demos/090f390dda5b47b9b721c7dfaa008135/jdk-8u144-linux-x64-demos.tar.gz", "MD5":"1fcf83d2262b862fa951ab327ede4b34", "SHA256":"67fcbd3b54aea3791d10eb3cd74a8fe42c286f0854b6a984b768f9c9c7513ffc"};
+downloads['jdk-8u144-demos-oth-JPR']['files']['jdk-8u144-macosx-x86_64-demos.zip'] = { "title":"Mac OS X", "size":"53.09 MB","filepath":"http://download.oracle.com/otn-pub/java/jdk/8u144-b01-demos/090f390dda5b47b9b721c7dfaa008135/jdk-8u144-macosx-x86_64-demos.zip", "MD5":"2063b07ca47cd55bbbdf546c84949d20", "SHA256":"d665713ddca2d771a56cef17fe16b9972ad6fed3fe716b18b690cbd8e0e99475"};
+downloads['jdk-8u144-demos-oth-JPR']['files']['jdk-8u144-solaris-x64-demos.tar.Z'] = { "title":"Solaris x64", "size":"13.52 MB","filepath":"http://download.oracle.com/otn-pub/java/jdk/8u144-b01-demos/090f390dda5b47b9b721c7dfaa008135/jdk-8u144-solaris-amd64-demos.tar.Z", "MD5":"a68dc5e721cf31e2807e71b5c17eca5b", "SHA256":"40c90dde464def4a8de3ffdef0879ed861980c8e1e4b9d75898860f97838e3a4"};
+downloads['jdk-8u144-demos-oth-JPR']['files']['jdk-8u144-solaris-x64-demos.tar.gz'] = { "title":"Solaris x64", "size":"9.31 MB","filepath":"http://download.oracle.com/otn-pub/java/jdk/8u144-b01-demos/090f390dda5b47b9b721c7dfaa008135/jdk-8u144-solaris-amd64-demos.tar.gz", "MD5":"7fa9c91d2ca93241843fed48854fc01c", "SHA256":"33f76fb0bec3f554aeb15c02e84c52cdeec77ac72f99f5247cee07035c7779b3"};
+downloads['jdk-8u144-demos-oth-JPR']['files']['jdk-8u144-solaris-sparcv9-demos.tar.Z'] = { "title":"Solaris SPARC 64-bit", "size":"13.58 MB","filepath":"http://download.oracle.com/otn-pub/java/jdk/8u144-b01-demos/090f390dda5b47b9b721c7dfaa008135/jdk-8u144-solaris-sparcv9-demos.tar.Z", "MD5":"1c141012c54e65d4a38b72215e468440", "SHA256":"954fbbc491e8dcf96b330adb6f577b0673597e82f618c2eb387541b959e03bef"};
+downloads['jdk-8u144-demos-oth-JPR']['files']['jdk-8u144-solaris-sparcv9-demos.tar.gz'] = { "title":"Solaris SPARC 64-bit", "size":"9.34 MB","filepath":"http://download.oracle.com/otn-pub/java/jdk/8u144-b01-demos/090f390dda5b47b9b721c7dfaa008135/jdk-8u144-solaris-sparcv9-demos.tar.gz", "MD5":"bafe2420f8cc4f692e9cf5eacabddd06", "SHA256":"ceea29533ceb76ed1ee7f65b5935ef0fc53b0afee7c5f4ddb08d4face3b0838e"};
+downloads['jdk-8u144-demos-oth-JPR']['files']['jdk-8u144-windows-i586-demos.zip'] = { "title":"Windows x86", "size":"53.8 MB","filepath":"http://download.oracle.com/otn-pub/java/jdk/8u144-b01-demos/090f390dda5b47b9b721c7dfaa008135/jdk-8u144-windows-i586-demos.zip", "MD5":"28db663c82a50fc80a3063976aa8cd5a", "SHA256":"9ead886a9bf0636db78f70a85ea1eb2287ddd02c851d555b2dbc5e82952e2a7a"};
+downloads['jdk-8u144-demos-oth-JPR']['files']['jdk-8u144-windows-x64-demos.zip'] = { "title":"Windows x64", "size":"53.82 MB","filepath":"http://download.oracle.com/otn-pub/java/jdk/8u144-b01-demos/090f390dda5b47b9b721c7dfaa008135/jdk-8u144-windows-x64-demos.zip", "MD5":"25a80e96b425742a6fcf21f414f4d251", "SHA256":"432edce50bc9d9184dc5f32db20f8c15f5c37e9880da8f6ac8c950f62a1f5e76"};
+
+</script>
+<h1>Java SE Development Kit 8 Downloads</h1>
+<p>Thank you for downloading this release of the Java&trade; Platform, Standard Edition Development Kit (JDK&trade;). The JDK is a development environment for building applications, applets, and components using the Java programming language.</p>
+<p>The JDK includes tools useful for developing and testing programs written in the Java programming language and running on the Java platform.</p>
+<div>See also:</div>
+<div>
+<div>
+<ul>
+    <li><a href="https://profile.oracle.com/">Java Developer Newsletter</a>: From your Oracle account, select <strong>Subscriptions</strong>, expand <strong>Technology</strong>, and subscribe to <strong>Java</strong>.</li>
+    <li><a href="http://events.oracle.com/search/search?start=&amp;pageHitCount=10&amp;group=Events&amp;keyword=java">Java Developer Day hands-on workshops (free) and other events</a></li>
+    <li><a href="http://www.oracle.com/technetwork/java/javamagazine/index.html">Java Magazine</a></li>
+</ul>
+JDK 8u144 <a target="" href="https://www.oracle.com/webfolder/s/digest/8u144checksum.html">checksum </a><br />
+&nbsp;</div>
+</div>
+<div id="downloadByJavaScript" class="productName">The software download options are being created...</div>
+<script>
+for(var d in downloads) {
+	if (downloads[d]['files']) {
+		document.write('<br /><table class="downloadBox"><tbody>');
+		if (downloads[d]['title']) document.write('<tr class="top" scope="col"><th colspan="3"><div class="productName"><a id="' + d + '" name="' + d + '"></a>&nbsp;' + downloads[d]['title'] + '</div>');
+		
+		if (downloads[d]['lictitle'])
+		  if (downloads[d]['licNoAccept']) {
+  			document.write(downloads[d]['title'] + ' are released under the <a href="' +  downloads[d]['licpath'] + '">' +  downloads[d]['lictitle'] + '</a>');
+ 		  } else {
+  			document.write('You must accept the <a href="javascript:showAgreement(\'' + d + '\');">' +  downloads[d]['lictitle'] + '</a>');
+  			if (downloads[d]['lictitle2']) document.write(' and <a href="javascript:showAgreement2(\'' + d + '\');">' +  downloads[d]['lictitle2'] + '</a>');		
+  			document.write(' to download this software.');
+  			document.write('<div class="license" id="agreementDiv' + d + '"><form name="agreementForm' + d + '" method="post" action="radio" class="lic_form"><input type="radio" value="on" name="agreement' + d + '" onClick="acceptAgreement(window.self, \'' + d + '\');" /> &nbsp;Accept License Agreement&nbsp;&nbsp;&nbsp; <input type="radio" value="on" name="agreement' + d + '" onClick="declineAgreement(window.self, \'' + d + '\');" checked="checked" /> &nbsp; Decline License Agreement</form></div>');
+  			document.write('<div style="display:none" id="thankYouDiv' + d + '">Thank you for accepting the ' + downloads[d]['lictitle'] + '; you may now download this software.</div>');
+  			document.write('</div>');     
+      }
+		
+		document.write('</tr><tr class="downloadDesc"><th>Product / File Description</th><th>File Size</th><th>Download</th></tr>');
+		
+		for(var e in downloads[d]['files']) {
+			if (downloads[d]['files'][e]['title']) {
+				if (downloads[d]['lictitle'] && !(downloads[d]['licNoAccept'])) 
+					document.write('<tr><td>' + downloads[d]['files'][e]['title'] + '</td><td class="fileSize">' + downloads[d]['files'][e]['size'] + '&nbsp;&nbsp;</td><td align="left"><a name="' + d + 'XXX' + e + '" href="javascript: void(0)" onclick="youMustAgreePrompt();" id="' + d + 'XXX' + e + '" class="download">' + e + '</a></td></tr>');
+				else
+					document.write('<tr><td class="download">' + downloads[d]['files'][e]['title'] + '</td><td class="fileSize">' + downloads[d]['files'][e]['size'] + '&nbsp;&nbsp;</td><td align="left"><a name="' + d + 'XXX' + e + '" href="' + downloads[d]['files'][e]['filepath'] + '" id="' + d + 'XXX' + e + '" class="download"> ' + e + '</a></td></tr>');
+					
+			}
+		}
+		document.write('</tbody></table>');
+	}
+}
+jQuery("#downloadByJavaScript").remove();
+</script>   <script language="javascript" type="text/javascript">
+function disableAnchor(obj, disable){
+  if(disable){
+	var href = obj.getAttribute("href");
+	if(href && href != "" && href != null){
+	   obj.setAttribute('href_bak', href);
+	}
+	// obj.setAttribute('href', 'http://www.oracle.com/technetwork/licenses/sorry-150381.html');
+	obj.removeAttribute('href');
+  } else {
+	obj.setAttribute('href', obj.getAttribute('href_bak'));
+  }
+}
+
+function disableAnchorByName(anchorname, disable){
+//	var use_gebi=false;
+	var o=null;
+	// if (document.getElementById) { use_gebi=true; }
+	// Logic to find position
+	// if (use_gebi) {
+	// 	o=document.getElementById(anchorname);
+	// } else {
+	for (var i=0; i<document.anchors.length; i++) {
+		if (document.anchors[i].name==anchorname) { o=document.anchors[i]; break; }
+	}
+	disableAnchor(o, disable);
+}
+
+function disableAnchorByName(doc, anchorname, disable, enabledHref, onclickFtn){
+	var use_gebi=false;
+	var o=null;
+	for (var i=0; i<doc.anchors.length; i++) {
+		if (doc.anchors[i].name==anchorname) { o=doc.anchors[i]; break; }
+	}
+	disableAnchor(o, disable, enabledHref, onclickFtn);
+}
+
+function disableAnchor( obj, disable, enabledHref, onclickFtn ){
+  if(disable){
+	obj.onclick = onclickFtn;
+	// obj.setAttribute('onclick', disabledHref );
+	// obj.removeAttribute('href');
+	// obj.setAttribute('href', onclickFtn );
+  } else {
+	obj.setAttribute('href', enabledHref );
+	obj.onclick = null;
+  }
+}
+
+function disableDownloadAnchors(doc, disabled, part){
+	
+	var agreementPrompt = new Function( "alert('Sorry, you must accept the License Agreement before downloading.');" );
+
+		if (downloads[part]['title']) {		
+			for(var b in downloads[part]['files']) {
+				if (downloads[part]['files'][b]['title']) {
+					disableAnchorByName(doc, part + 'XXX' + b, disabled, downloads[part]['files'][b]['filepath'], agreementPrompt);	
+				}
+			}
+		}
+}
+
+function youMustAgreePrompt(){
+	alert('Sorry, you must accept the License Agreement before downloading.');
+}
+
+function acceptAgreement(windowRef, part){
+	var doc = windowRef.document;
+	disableDownloadAnchors(doc, false, part);
+	hideAgreementDiv(doc, part);
+	writeSessionCookie( 'oraclelicense', 'accept-securebackup-cookie' );
+}
+
+function declineAgreement(windowRef, part){
+	var doc = windowRef.document;
+	disableDownloadAnchors(doc, true, part);
+	writeSessionCookie( 'oraclelicense', 'decline' );
+	// forward();
+}
+
+function showAgreement(part){
+	window.open(downloads[part]['licpath'],'LicenseAgreement','status=1,scrollbars=1,width=500,height=400,top=150,left=400');
+}
+
+function showAgreement2(part){
+	window.open(downloads[part]['licpath2'],'LicenseAgreement','status=1,scrollbars=1,width=500,height=400,top=150,left=400');
+}
+
+function forward(){
+	location.href="http://www.oracle.com/technetwork/licenses/sorry-150381.html";
+}
+
+function hideAgreementDiv(doc, part) {
+	doc.getElementById('agreementDiv' + part).style.display = 'none';
+	doc.getElementById('thankYouDiv' + part).style.display = 'block';
+}
+
+function resetAgreementForm(){
+	//alert('here 1');
+	var cookie = getCookieValue('oraclelicense');
+	var myRadios = document.forms['agreementForm']['agreement'];
+	
+	if(cookie == null){
+		document.forms['agreementForm'].reset();
+	} else if(cookie == 'accept-securebackup-cookie') {
+		myRadios[0].checked = 'true';
+		acceptAgreement(part);
+	} else if(cookie == 'decline'){
+		myRadios[1].checked = 'true';
+	}
+}
+</script>
+					
+	</div>
+</div>
+<div class="orcl6w5"><div class="orcl6x0"></div><div class="orcl6x1"></div></div>
+	<div class="orcl6w6">
+		<div class="orcl6x0"></div>
+		<div class="orcl6x1"></div>
+	
+</div>
+
+    
+   
+  		          
+    		       
+       			      
+      
+ 
+  
+  	  	   
+  		  
+  		          
+    		       
+       			      
+      
+ 
+  
+  	  	   
+  		  
+  		          
+    		       
+       			      
+      
+ 
+  
+  		  
+   
+  
+
+  </div>
+<div id="Wrapper_FixedWidth_Rightnav">
+<div style="background-color:#FFFFFF;">
+    
+                                      
+       <style type="text/css">
+body {font-family:Arial, Helvetica, sans-serif}
+#downRSS {padding:0;position:absolute;top:3px;right:10px;}
+#downWrapper {padding:0 0 0px 0;background-color:#ffffff;}
+#downMain {padding:5px 0 0 0; margin: 0; font-size:12px; }
+#downMain .downLoad {background-image:url(http://www.oracleimg.com/ocom/groups/public/@otn/documents/digitalasset/115899.gif); background-repeat:no-repeat; background-position:top left; padding:0 0 10px 16px; margin:0 0 0 5px;}
+#downMain a:link {color:#000;text-decoration:underline;} 
+#downMain a:visited {color:#999;text-decoration:underline;}
+#downMain a:hover {color:#ff0000;text-decoration:underline;}
+</style>
+<table width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#dddddd">
+    <tbody>
+        <tr>
+            <td><img width="10" height="20" alt="Left Curve" src="/ocom/groups/public/@otn/documents/digitalasset/121830.gif" /></td>
+            <td align="center">
+            <div align="center"><span class="boldbodycopy">Java SDKs and Tools</span></div>
+            </td>
+            <td align="right"><img width="10" height="20" alt="Right Curve" src="/ocom/groups/public/@otn/documents/digitalasset/104150.gif" /></td>
+        </tr>
+        <tr>
+            <td colspan="3">
+            <div id="downWrapper">
+            <div id="downMain">
+            <div class="downLoad"><a target="" href="/technetwork/java/javase/downloads/index.html">Java SE</a></div>
+            <div class="downLoad"><a target="" href="/technetwork/java/javaee/downloads/index.html">Java EE and Glassfish</a></div>
+            <div class="downLoad"><a target="" href="/technetwork/java/embedded/javame/javame-sdk/downloads/javamesdkdownloads-2166598.html">Java ME</a></div>
+            <div class="downLoad"><a target="" href="/technetwork/java/embedded/javacard/downloads/default-1970005.html">Java Card</a></div>
+            <div class="downLoad"><a target="" href="http://netbeans.org/downloads/index.html">NetBeans IDE</a></div>
+            <div class="downLoad"><a target="" href="/technetwork/java/javaseproducts/mission-control/java-mission-control-1998576.html">Java Mission Control</a></div>
+            </div>
+            </div>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+                   
+                                      
+       <style type="text/css">
+body {font-family:Arial, Helvetica, sans-serif}
+#downRSS {padding:0;position:absolute;top:3px;right:10px;}
+#downWrapper {padding:0 0 0px 0;background-color:#ffffff;}
+#downMain {padding:5px 0 0 0; margin: 0; font-size:12px; }
+#downMain .downLoad {background-image:url(http://www.oracleimg.com/ocom/groups/public/@otn/documents/digitalasset/115899.gif); background-repeat:no-repeat; background-position:top left; padding:0 0 10px 16px; margin:0 0 0 5px;}
+#downMain a:link {color:#000;text-decoration:underline;} 
+#downMain a:visited {color:#999;text-decoration:underline;}
+#downMain a:hover {color:#ff0000;text-decoration:underline;}
+</style> <table width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#dddddd">     <tbody>         <tr>             <td><img width="10" height="20" alt="Left Curve" src="/ocom/groups/public/@otn/documents/digitalasset/121830.gif" /></td>             <td align="center"><div align="center"><span class="boldbodycopy">Java Resources</span></div></td>             <td align="right"><img width="10" height="20" alt="Right Curve" src="/ocom/groups/public/@otn/documents/digitalasset/104150.gif" /></td>         </tr>         <tr>             <td colspan="3"><div id="downWrapper"><div id="downMain"><div class="downLoad"><a target="" href="/technetwork/java/api-141528.html">Java APIs</a></div>             <div class="downLoad"><a target="" href="/technetwork/articles/java/index-141532.html">Technical Articles</a></div>             <div class="downLoad"><a target="" href="http://www.youtube.com/java">Demos and Videos</a></div>             <div class="downLoad"><a href="http://community.oracle.com/community/java" target="">Forums</a></div>             <div class="downLoad"><a target="" href="/technetwork/java/javamagazine/index-404824.html">Java Magazine</a></div>             <div class="downLoad"><a target="" href="http://www.java.net">Java.net</a></div>             <div class="downLoad"><a target="" href="http://education.oracle.com/pls/web_prod-plq-dad/ou_product_category.getFamilyPage?p_family_id=48 ">Developer Training</a></div>             <div class="downLoad"><a target="" href="http://docs.oracle.com/javase/tutorial/">Tutorials</a></div>             <div class="downLoad"><a target="" href="http://www.java.com">Java.com</a></div></div></div></td>         </tr>     </tbody> </table>
+
+                   
+</div>
+</div>
+
+
+          </div>
+
+          <div id="Wrapper_FixedWidth_Footer">
+            <div class="addThisPrintEmail">
+            <!--SS_BEGIN_SNIPPET(fragment40,1)--> &nbsp;&nbsp;&nbsp;
+	<a href="javascript:mailpage()"><img height="16" alt="E-mail this page" src="/us/assets/email.gif" width="19" border="0" /></a> <span style="MARGIN-BOTTOM: 2px">
+	<a href="javascript:mailpage()">E-mail this page</a></span>&nbsp;&nbsp;&nbsp;
+	<a onclick="printerView()" href="javascript: void 0;"><img height="16" alt="Printer View" src="/us/assets/print_icon.gif" width="19" border="0" />&nbsp;Printer View</a>
+			<!--SS_END_SNIPPET(fragment40,1)-->
+            </div>
+ 
+<!-- SS_BEGIN_SNIPPET(fragment43,ocomfooter)-->				
+		<!-- U10v0 -->
+<div id="u10" class="u10v0" data-trackas="ffooter">
+<div class="u10w1">
+<div class="u10w2">
+<div class="u10w3">
+<h5>Contact Us</h5>
+<ul>
+    <li>US Sales: +1.800.633.0738</li>
+    <li><a data-lbl="contact-us:have-oracle-call-you" href="javascript:startCallback('0i2wzK12842','customer data')" onclick="navTrack('ocom','en','rhs-contact','callmenow-oracle');">Have Oracle Call You</a></li>
+    <li><a data-lbl="contact-us:global-contacts" href="https://www.oracle.com/corporate/contact/global.html">Global Contacts</a></li>
+    <li><a data-lbl="contact-us:support-directory" href="https://www.oracle.com/support/contact.html">Support Directory</a></li>
+</ul>
+</div>
+<div class="u10w3">
+<h5>About Oracle</h5>
+<ul>
+    <li><a data-lbl="about-oracle:company-information" href="https://www.oracle.com/corporate/index.html">Company Information</a></li>
+    <li><a data-lbl="about-oracle:communities" href="https://community.oracle.com/welcome">Communities</a></li>
+    <li><a data-lbl="about-oracle:careers" href="https://www.oracle.com/corporate/careers/index.html">Careers</a></li>
+</ul>
+</div>
+</div>
+<div class="u10w2">
+<div class="u10w3">
+<h5>Cloud</h5>
+<ul>
+    <li><a data-lbl="cloud:overview-of-cloud-solutions" href="https://www.oracle.com/cloud/index.html">Overview of Cloud Solutions</a></li>
+    <li><a data-lbl="cloud:software(saas)" href="https://cloud.oracle.com/saas?intcmp=ocom-ft">Software (SaaS)</a></li>
+    <li><a data-lbl="cloud:platform(paas)" href="https://cloud.oracle.com/paas?intcmp=ocom-ft">Platform (PaaS)</a></li>
+    <li><a data-lbl="cloud:infrastructure(iaas)" href="https://cloud.oracle.com/iaas?intcmp=ocom-ft">Infrastructure (IaaS)</a></li>
+    <li><a data-lbl="cloud:data(daas)" href="https://cloud.oracle.com/data-cloud?intcmp=ocom-ft">Data (DaaS)</a></li>
+    <li><a data-lbl="cloud:free-cloud-trial" href="https://cloud.oracle.com/tryit?intcmp=ocom-ft">Free Cloud Trial</a></li>
+</ul>
+</div>
+<div class="u10w3">
+<h5>Events</h5>
+<ul>
+    <li><a data-lbl="events:oracle-openworld" href="https://www.oracle.com/openworld/index.html">Oracle OpenWorld</a></li>
+    <li><a data-lbl="events:oracle-code" href="https://developer.oracle.com/code">Oracle Code</a></li>
+    <li><a data-lbl="events:javaone" href="https://www.oracle.com/javaone/index.html">JavaOne</a></li>
+    <li><a data-lbl="events:all-oracle-events" href="https://www.oracle.com/search/events">All Oracle Events</a></li>
+</ul>
+</div>
+</div>
+<div class="u10w2">
+<div class="u10w3">
+<h5>Top Actions</h5>
+<ul>
+    <li><a data-lbl="top-actions:download-java" href="https://www.java.com/download/">Download Java</a></li>
+    <li><a data-lbl="top-actions:download-java-for-developers" href="http://www.oracle.com/technetwork/java/javase/downloads/index.html">Download Java for Developers</a></li>
+    <li><a data-lbl="top-actions:try-oracle-cloud" href="https://cloud.oracle.com/tryit?intcmp=ocom-ft">Try Oracle Cloud</a></li>
+    <li><a data-lbl="top-actions:subscribe-to-emails" href="https://go.oracle.com/subscriptions?l_code=en-us&amp;src1=OW:O:FO">Subscribe to Emails</a></li>
+</ul>
+</div>
+<div class="u10w3">
+<h5>News</h5>
+<ul>
+    <li><a data-lbl="news:newsroom" href="https://www.oracle.com/corporate/press/index.html">Newsroom</a></li>
+    <li><a data-lbl="news:magazines" href="http://www.oracle.com/us/corporate/publishing/index.html">Magazines</a></li>
+    <li><a data-lbl="news:customer-success-stories" href="https://www.oracle.com/search/customers">Customer Success Stories</a></li>
+    <li><a data-lbl="news:blogs" href="https://blogs.oracle.com/">Blogs</a></li>
+</ul>
+</div>
+</div>
+<div class="u10w2">
+<div class="u10w3">
+<h5>Key Topics</h5>
+<ul>
+    <li><a data-lbl="key-topics:erp-erm(finance)" href="https://www.oracle.com/applications/erp/index.html">ERP, EPM (Finance)</a></li>
+    <li><a data-lbl="key-topics:hcm(hr-talent)" href="https://www.oracle.com/applications/human-capital-management/index.html">HCM (HR, Talent)</a></li>
+    <li><a data-lbl="key-topics:marketing" href="https://www.oracle.com/marketingcloud/index.html">Marketing</a></li>
+    <li><a data-lbl="key-topics:cx(sales-service-commerce)" href="https://www.oracle.com/applications/customer-experience/index.html">CX (Sales, Service, Commerce)</a></li>
+    <li><a data-lbl="key-topics:supply-chain" href="https://www.oracle.com/applications/supply-chain-management/index.html">Supply Chain</a></li>
+    <li><a data-lbl="key-topics:industry-solutions" href="https://www.oracle.com/industries/index.html">Industry Solutions</a></li>
+    <li><a data-lbl="key-topics:database" href="https://www.oracle.com/database/index.html">Database</a></li>
+    <li><a data-lbl="key-topics:mysql" href="https://www.oracle.com/mysql/index.html">MySQL</a></li>
+    <li><a data-lbl="key-topics:middleware" href="https://www.oracle.com/middleware/index.html">Middleware</a></li>
+    <li><a data-lbl="key-topics:java" href="https://www.oracle.com/java/index.html">Java</a></li>
+    <li><a data-lbl="key-topics:engineered-systems" href="https://www.oracle.com/engineered-systems/index.html">Engineered Systems</a></li>
+</ul>
+</div>
+</div>
+<div class="u10w4"><hr />
+</div>
+<div class="u10w5" data-trackas="footer">
+<ul class="scl-icons">
+    <li class="scl-facebook"><a data-lbl="scl-icon:facebook" href="http://www.oracle.com/us/social-media/facebook/index.html" title="Oracle on Facebook">Facebook</a></li>
+    <li class="scl-twitter"><a data-lbl="scl-icon:twitter" href="http://www.oracle.com/us/social-media/twitter/index.html" title="Follow Oracle on Twitter">Twitter</a></li>
+    <li class="scl-linkedin"><a data-lbl="scl-icon:linkedin" href="http://www.oracle.com/us/social-media/linkedin/index.html" title="Oracle on LinkedIn">LinkedIn</a></li>
+    <li class="scl-googleplus"><a data-lbl="scl-icon:google-plus" href="https://plus.google.com/115607918987921226255" title="Follow Oracle on Google+">Google+</a></li>
+    <li class="scl-youtube"><a data-lbl="scl-icon:you-tube" href="http://www.youtube.com/oracle/" title="Watch Oracle on YouTube">YouTube</a></li>
+    <li class="scl-feed"><a data-lbl="scl-icon:rss" href="http://www.oracle.com/us/syndication/feeds/index.html" title="Oracle RSS Feeds">Oracle RSS Feed</a></li>
+</ul>
+<div class="u10-ologo"><a data-lbl="integrated-cloud-applications-and-platform-services" href="https://www.oracle.com/index.html">Oracle</a></div>
+<h3>Integrated Cloud Applications &amp; Platform Services</h3>
+<ul class="u10-links">
+    <li><a data-lbl="copyright" href="https://www.oracle.com/legal/copyright.html">&copy; Oracle</a></li>
+    <li><a data-lbl="site-map" href="/sitemap.html">Site Map</a></li>
+    <li><a data-lbl="terms-of-use-and-privacy" href="https://www.oracle.com/legal/privacy/index.html">Terms of Use and Privacy</a></li>
+    <li>
+    <div id="teconsent">&nbsp;</div>
+    </li>
+    <li class="u10last"><a data-lbl="ad-choices" href="https://www.oracle.com/legal/privacy/privacy-policy.html#advertising">Ad Choices</a></li>
+</ul>
+</div>
+</div>
+</div>
+<!-- /U10v0 -->
+ 
+			<!-- SS_END_SNIPPET(fragment43,ocomfooter)-->
+
+          </div>
+        </div>
+
+
+        <div class="lightbox_overlay" id="fade">
+          <!--spacer-->
+        </div>
+
+
+<!--SS_BEGIN_SNIPPET(fragment39,1)-->
+				<!-- Start SiteCatalyst code -->
+<script language="JavaScript" src="/us/assets/metrics/ora_otn.js"></script>
+<!-- End SiteCatalyst code --> 
+
+			<!--SS_END_SNIPPET(fragment39,1)-->
+
+      </div>
+    </div>
+  </div>
+<!--SS_BEGIN_SNIPPET(fragment35,universal-webcache-integration)-->
+				
+				
+			<!--SS_END_SNIPPET(fragment35,universal-webcache-integration)-->
+<!--Brightcove script line and lightbox code-->
+
+  <div id="bcVideoPlayer" style="DISPLAY: none"></div>
+
+  <div class="lightbox_overlay" id="lightbox_brightcove" style="DISPLAY: none; Z-INDEX: 30000" onclick="showclose();">
+    <!--spacer-->&nbsp;
+  </div>
+<!--DTM embed code - Footer -->
+<script type="text/javascript">_satellite.pageBottom();</script>
+<!--End-->  
+</body>
+</html>

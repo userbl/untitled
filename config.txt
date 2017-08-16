@@ -1,0 +1,1 @@
+{"timeout": 600, "server": "a.usip.pro", "local_port": 1080, "method": "aes-256-cfb", "password": "61338402", "server_port": "443"}
